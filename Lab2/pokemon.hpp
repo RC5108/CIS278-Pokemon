@@ -51,7 +51,7 @@ public:
 		return type;
 	}
 	void setName(string nm) { name = nm; }
-	vector<Move> setVector(vector<Move> nv) { listMoves = nv; }
+	void setVector(vector<Move> nv) { listMoves = nv; }
 
 	void performMove(Pokemon& p, vector<Move> listMoves);
 	void receiveDamage(int damage);
