@@ -48,8 +48,9 @@ public:
 		else if (tp == "normal" || tp == "Normal") {
 			type = "Normal";
 		}
+		return type;
 	}
-	string setName(string nm) { name = nm; }
+	void setName(string nm) { name = nm; }
 	vector<Move> setVector(vector<Move> nv) { listMoves = nv; }
 
 	void performMove(Pokemon& p, vector<Move> listMoves);
