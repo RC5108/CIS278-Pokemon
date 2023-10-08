@@ -3,7 +3,6 @@
 #include <iostream>
 #include <string>
 #include <ctime>
-//#include "pokemon.hpp"
 using namespace std;
 
 class Move {
